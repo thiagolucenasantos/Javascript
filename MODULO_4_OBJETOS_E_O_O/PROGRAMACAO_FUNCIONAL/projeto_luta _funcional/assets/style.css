@@ -1,0 +1,25 @@
+.fightArea{
+    display: flex;
+    gap: 20px;
+}
+
+#char, #monster{
+    flex: 1;
+}
+.lifeBar{
+    height: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.lifeBar .bar{
+    height: inherit; /*herda a altura de seu pai no caso a lifebar*/
+    background-color: red;
+    border-radius: 5px;
+}
+
+.log{
+    border: 1px dotted #999;
+    height: 400px;
+    overflow-y: scroll;
+}
